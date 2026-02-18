@@ -1,4 +1,12 @@
+# robots.txt for قافلة طريق الجنة (Tarek Al-Jannah)
 User-agent: *
+Allow: /
+Disallow: /admin/
 Disallow: /private/
-Allow: /public/
-Sitemap: https://example.com/sitemap.xml
+Disallow: /temp/
+
+# Crawl delay to reduce server load
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://tarekaljannah.qafiltalnour.com/sitemap.xml
